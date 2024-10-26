@@ -1,0 +1,49 @@
+Chat Application Feature Requirements
+
+Technology Stack:
+
+Frontend: React
+Backend: Node.js with Express
+Database: MongoDB
+WebSocket: Colyseus
+Feature Requirements
+User Authentication:
+
+Implement secure account creation and login functionality for users.
+Real-time Messaging:
+
+Utilize Colyseus for WebSocket integration to enable instant message delivery.
+Message History:
+
+Store chat history in MongoDB and ensure it can be retrieved and displayed for each user.
+One-to-One Messaging:
+
+Maintain a list of all users with whom the current user has conversed.
+Display the most recent message exchanged between users.
+Allow users to click on a user’s name to start a chat.
+Highlight the active conversation at the top of the list for easy access.
+Search Functionality for Registered Users:
+
+Implement a search bar that enables users to quickly find other registered users for conversations.
+Allow filtering of the user list by name or username in real-time as the user types. now can make backend here is code
+
+
+
+I’m building a chat application in React with the following requirements:
+Feature Requirements:
+
+User Authentication - Account creation and login functionality.
+Real-Time Messaging - Instant messaging using Colyseus WebSocket integration.
+Message History - Store and retrieve chat history in MongoDB.
+One-to-One Messaging - Display a list of all users a user has conversed with and show the most recent message for each user. The active conversation should appear at the top, and users can start new conversations by clicking a username.
+Search Functionality - Implement a search bar to find registered users, with real-time filtering as the user types.
+Objective: The current code is all in a single file and lacks modularity. I need help organizing the code without breaking any features and ensuring clean, maintainable components. Here’s the existing code:
+
+
+Goal: Please refactor and modularize the code into the following structure:
+
+Components - Separate UI elements, such as AuthForm, ConversationList, and MessageList.
+Services - Abstract out API calls, like login, register, fetchConversations, and searchUsers.
+Hooks - If possible, create custom hooks for commonly used functionality, like fetching conversations and handling authentication.
+Context - Implement a context for user authentication to manage and pass down user state globally across components.
+Please provide the refactored code in modules while preserving all features.
