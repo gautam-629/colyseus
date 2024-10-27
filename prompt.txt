@@ -25,7 +25,7 @@ Highlight the active conversation at the top of the list for easy access.
 Search Functionality for Registered Users:
 
 Implement a search bar that enables users to quickly find other registered users for conversations.
-Allow filtering of the user list by name or username in real-time as the user types. now can make backend here is code
+Allow filtering of the user list by name or username in real-time as the user types. 
 
 
 
